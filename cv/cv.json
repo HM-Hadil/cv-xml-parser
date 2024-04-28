@@ -1,0 +1,48 @@
+{
+    "CV": {
+      "Nom": "Hammami",
+      "Prénom": "Hadil",
+      "Adresse": "Tunis Siliana Bouarada",
+      "Téléphone": "24308496",
+      "Email": "hadilhammami@isimg.tn",
+      "profile": "full stack web developer",
+      "resume": "Software Engeneering",
+      "image": "BeautyPlus_20230502164312245_save.jpg",
+      "Education": {
+        "degree": [
+          {
+            "Diplôme": "Cycle d'ingenieur en Informatique",
+            "Établissement": "ISIMG",
+            "Année": "2023-2026"
+          },
+          {
+            "Diplôme": "LSIM",
+            "Établissement": "ISIMG",
+            "Année": "2020-2023"
+          }
+        ]
+      },
+      "Expérience_Professionnelle": {
+        "Experience": [
+          {
+            "Poste": "Chercheur en Science de l'Informatique",
+            "Institution": "Laboratoire de Recherche en Informatique",
+            "Période": "2023-présent",
+            "Description": "En charge de la conception et de la réalisation de projets de recherche innovants dans le domaine de l'intelligence artificielle."
+          },
+          {
+            "Poste": "developpeur full stack",
+            "Institution": "Talan tunise",
+            "Période": "2022-2023",
+            "Description": "En charge de la conception et de la réalisation de projets dashboard"
+          }
+        ]
+      },
+      "Compétences": {
+        "Langages_de_Programmation": {
+          "Langage": ["HTML,CSS,JS", "java", "php"]
+        }
+      }
+    }
+  }
+  

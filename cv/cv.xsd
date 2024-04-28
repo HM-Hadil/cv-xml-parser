@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="monns"
+xmlns="monns">
+<xs:element name="CV">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Nom" type="xs:string"></xs:element>
+            <xs:element name="Prénom" type="xs:string"></xs:element>
+            <xs:element name="Adresse" type="xs:string"></xs:element>
+            <xs:element name="Téléphone" type="xs:integer"></xs:element>
+            <xs:element name="Email" type="xs:string"></xs:element>
+            <xs:element name="resume" type="xs:string"></xs:element>
+            <xs:element name="profile" type="xs:string"></xs:element>
+            <xs:element name="image" type="xs:string"></xs:element>
+
+
+
+            <xs:element name="Education">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="degree" maxOccurs="unbounded">
+
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="Diplôme" type="xs:string"></xs:element>
+                                <xs:element name="Établissement" type="xs:string"></xs:element>
+                                <xs:element name="Année" type="xs:date"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Expérience_Professionnelle">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Experience" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Poste" type="xs:string"></xs:element>
+                                    <xs:element name="Institution" type="xs:string"></xs:element>
+                                    <xs:element name="Période" type="xs:date"></xs:element>
+                                    <xs:element name="Description" type="xs:string"></xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Compétences">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Langages_de_Programmation">
+
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="langage" type="xs:string" maxOccurs="unbounded">
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+
+            </xs:element>
+
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:element>
+
+
+
+</xs:schema>

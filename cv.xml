@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV [
+    <!ELEMENT CV (Nom, Prénom, Adresse, Téléphone, Email, profile, resume, image, Education, Expérience_Professionnelle, Compétences)>
+    <!ELEMENT Nom (#PCDATA)>
+    <!ELEMENT Prénom (#PCDATA)>
+    <!ELEMENT Adresse (#PCDATA)>
+    <!ELEMENT Téléphone (#PCDATA)>
+    <!ELEMENT Email (#PCDATA)>
+    <!ELEMENT profile (#PCDATA)>
+    <!ELEMENT resume (#PCDATA)>
+    <!ELEMENT image (#PCDATA)>
+    <!ELEMENT Education (degree+)>
+    <!ELEMENT degree (Diplôme, Établissement, Année)>
+    <!ELEMENT Diplôme (#PCDATA)>
+    <!ELEMENT Établissement (#PCDATA)>
+    <!ELEMENT Année (#PCDATA)>
+    <!ELEMENT Expérience_Professionnelle (Experience+)>
+    <!ELEMENT Experience (Poste, Institution, Période, Description)>
+    <!ELEMENT Poste (#PCDATA)>
+    <!ELEMENT Institution (#PCDATA)>
+    <!ELEMENT Période (#PCDATA)>
+    <!ELEMENT Description (#PCDATA)>
+    <!ELEMENT Compétences (Langages_de_Programmation)>
+    <!ELEMENT Langages_de_Programmation (Langage+)>
+    <!ELEMENT Langage (#PCDATA)>
+]>
+
+
+<CV >
+      <Nom>Hammami</Nom>
+      <Prénom>Hadil</Prénom>
+      <Adresse>Tunis Siliana Bouarada</Adresse>
+    
+      <Téléphone>24308496</Téléphone>
+      <Email>hadilhammami@isimg.tn</Email>
+      <profile>full stack web developer</profile>
+      <resume>Software Engeneering</resume>
+      <image>BeautyPlus_20230502164312245_save.jpg</image>
+   
+      <Education>
+       <degree>
+        <Diplôme>Cycle d'ingenieur en Informatique</Diplôme>
+        <Établissement>ISIMG </Établissement>
+        <Année>2023-2026</Année>
+       </degree>
+       <degree>
+        <Diplôme>LSIM</Diplôme>
+        <Établissement>ISIMG</Établissement>
+        <Année>2020-2023</Année>
+       </degree>
+      </Education>
+
+    <Expérience_Professionnelle>
+    <Experience >
+      <Poste>Chercheur en Science de l'Informatique</Poste>
+      <Institution>Laboratoire de Recherche en Informatique</Institution>
+      <Période>2023-présent</Période>
+      <Description>
+        En charge de la conception et de la réalisation de projets de recherche innovants dans le domaine de l'intelligence artificielle.
+      </Description>
+    </Experience>
+    <Experience >
+      <Poste>developpeur full stack</Poste>
+      <Institution>Talan tunise</Institution>
+      <Période>2022-2023</Période>
+      <Description>
+        En charge de la conception et de la réalisation de projets dashboard
+      </Description>
+
+    </Experience>
+
+    </Expérience_Professionnelle>
+
+    <Compétences>
+
+      <Langages_de_Programmation>
+        <Langage>HTML,CSS,JS</Langage>
+        <Langage>java</Langage>
+        <Langage>php</Langage>
+      </Langages_de_Programmation>
+
+    </Compétences>
+
+  </CV>
+  
